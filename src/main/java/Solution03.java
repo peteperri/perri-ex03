@@ -24,12 +24,11 @@ public class Solution03 {
         Scanner input = new Scanner(System.in);
         String quote;
         String author;
-        System.out.println("Enter a quote: ");
+
+        System.out.println("What is the quote?");
         quote = input.nextLine();
-        System.out.println("And who said it?");
+        System.out.println("Who said it?");
         author = input.nextLine();
-        System.out.printf("\"%s\" - %s", quote, author);
-
-
+        System.out.println(author + " says, \"" + quote + "\"");
     }
 }
